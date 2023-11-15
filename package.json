@@ -1,5 +1,5 @@
 {
-  "name": "pinyin2",
+  "name": "pinyin-rs",
   "version": "1.0.0",
   "description": "汉语拼音转换工具。（@node-rs/jieba 版本）",
   "files": [
