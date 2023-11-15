@@ -1,7 +1,7 @@
 {
-  "name": "pinyin",
-  "version": "2.11.2",
-  "description": "汉语拼音转换工具。",
+  "name": "pinyin2",
+  "version": "1.0.0",
+  "description": "汉语拼音转换工具。（@node-rs/jieba 版本）",
   "files": [
     "bin",
     "data",
@@ -42,11 +42,9 @@
     "test": "nyc --reporter=lcov mocha --timeout=5000 --inline-diffs ./tests/"
   },
   "dependencies": {
+    "@node-rs/jieba": "1.7.2",
     "commander": "~1.1.1",
     "object-assign": "^4.0.1"
-  },
-  "optionalDependencies": {
-    "nodejieba": "2.5.2"
   },
   "devDependencies": {
     "aurl": "^1.2.0",
