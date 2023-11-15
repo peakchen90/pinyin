@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hotoo/pinyin.git"
+    "url": "https://github.com/peakchen90/pinyin.git"
   },
   "bugs": {
-    "url": "https://github.com/hotoo/pinyin/issues"
+    "url": "https://github.com/peakchen90/pinyin/issues"
   },
   "scripts": {
     "start": "dumi dev",
@@ -62,6 +62,9 @@
     "react-json-view": "^1.21.3",
     "request": "~2.68.0"
   },
-  "registry": "https://registry.npmmirror.com",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "license": "MIT"
 }
